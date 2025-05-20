@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "dev": "lite-server",
+    "sass": "sass src/styles/main.scss styles.css --watch"
+  },
+  "name": "projet-lit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "lit": "^3.3.0",
+    "sass": "^1.88.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
