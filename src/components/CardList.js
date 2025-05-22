@@ -118,6 +118,10 @@ export class CardList extends LitElement {
             justify-content: space-between;
         }
 
+        .card-content .card-info:last-child p {
+            text-align: right;
+        }
+
         .card-content .card-info p,
         .card-content .card-info time {
             font-size: 12px;

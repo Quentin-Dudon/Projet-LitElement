@@ -13,7 +13,7 @@ export class AppNav extends LitElement {
 
     render() {
         return html`
-            <nav class="breadcrumb-nav" aria-label="Fil d’Ariane">
+            <nav class="breadcrumb-nav" aria-label="Navigation principale">
                 <!-- À remplir -->
             </nav>
         `;
