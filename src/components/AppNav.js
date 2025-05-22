@@ -3,7 +3,7 @@ import { LitElement, html, css } from 'https://cdn.jsdelivr.net/gh/lit/dist@3/co
 
 export class AppNav extends LitElement {
     static styles = css`
-        .main-nav {
+        .breadcrumb-nav {
             height: 31px;
             background-color: #FFFFFF;
             border-top: 1px solid #C3D1E1;
@@ -13,7 +13,7 @@ export class AppNav extends LitElement {
 
     render() {
         return html`
-            <nav class="main-nav" aria-label="Navigation principale">
+            <nav class="breadcrumb-nav" aria-label="Navigation principale">
                 <!-- À remplir -->
             </nav>
         `;
